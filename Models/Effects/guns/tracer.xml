@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!-- flaming skull tracer -->
+<PropertyList>
+  
+  <path>skullshell.ac</path>
+  
+  <animation>
+    <enable-hot type="bool">true</enable-hot>
+  </animation>
+
+<!-- <model>
+ <path>Aircraft/ThornyWeen/Models/Effects/guns/fire.xml</path>
+</model> -->
+ 
+  <animation>
+  <type>scale</type>
+  <object-name>crown</object-name>
+  <object-name>jaw</object-name>
+  <object-name>teeth</object-name>
+  <object-name>orbs</object-name>
+    <x-offset>3.3</x-offset>
+    <y-offset>3.3</y-offset>
+    <z-offset>3.3</z-offset>
+  </animation>
+  
+  <animation>
+    <type>material</type>
+    <object-name>crown</object-name>
+    <object-name>jaw</object-name>
+    <object-name>teeth</object-name>
+    <emission>
+      <factor>1</factor>
+      <offset>0</offset>
+      <red>   1 </red>
+      <green> 1 </green>
+      <blue>  0.73 </blue>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>orbs</object-name>
+    <emission>
+      <factor>3</factor>
+      <offset>0</offset>
+      <red>   1 </red>
+      <green> 0.63 </green>
+      <blue>  0.073 </blue>
+    </emission>
+  </animation>
+   
+</PropertyList>
